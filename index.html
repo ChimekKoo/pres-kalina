@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Służąca Magda i kraina kotów</title>
+
+		<link rel="stylesheet" href="vendor/dist/reset.css">
+		<link rel="stylesheet" href="vendor/dist/reveal.css">
+		<link rel="stylesheet" href="vendor/dist/theme/black.css">
+		<link rel="stylesheet" href="vendor/plugin/highlight/monokai.css"> <!-- Theme used for syntax highlighted code -->
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+		<style>
+			code {
+				font-family: 'Fira Code', monospace !important;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section data-transition="none-in fade-out" data-background-color="black"></section>
+                <section data-transition="fade-in fade-out">
+				    <audio data-autoplay data-src="static/glos.mp3"></audio>
+				</section>
+				<section data-transition="fade-in fade-out" data-background-image="static/kot.png"></section>
+			    <section data-transition="fade-in fade-out">
+			        <h3>Służąca Magda i kraina kotów</h3>
+			    </section>
+                <section data-transition="fade-in fade-out" data-background-image="static/sciana_okno.png"></section>
+                <section data-transition="fade-in fade-out" data-background-image="static/korytarz.png"></section>
+				<section data-transition="fade-in fade-out" data-background-image="static/sciana_ceglana.png"></section>
+				<section data-transition="fade-in fade-out" data-background-image="static/srebrny.png"></section>
+				<section data-transition="fade-in fade-out" data-background-color="black">
+				    <audio data-autoplay data-src="static/mozart.mp3"></audio>
+				</section>
+				<section data-transition="fade-in fade-out" data-background-image="static/sciana_okno.png"></section>
+				<section data-transition="fade-in fade-out" data-background-color="black"></section>
+				<section data-transition="fade-in fade-out" data-background-image="static/sciana_okno.png"></section>
+				<section data-transition="fade-in fade-out" data-background-image="static/korytarz.png"></section>
+				<section data-transition="fade-in fade-out" data-background-image="static/biblioteka.png"></section>
+				<section data-transition="fade-in fade-out" data-background-image="static/korytarz.png"></section>
+				<section data-transition="fade-in fade-out" data-background-image="static/komisariat.png"></section>
+				<section data-transition="fade-in fade-out" data-background-image="static/korytarz.png"></section>
+				<section data-transition="fade-in fade-out" data-background-image="static/las.png"></section>
+				<section data-transition="fade-in fade-out" data-background-image="static/drzewo.png"></section>
+				<section data-transition="fade-in fade-out" data-background-image="static/drzewo.png">
+				    <audio data-autoplay data-src="static/rozdzka.mp3"></audio>
+				</section>
+				<section data-transition="fade-in fade-out" data-background-image="static/pies.gif"></section>
+				<section data-transition="fade-in fade-out" data-background-image="static/pies.gif">
+				    <audio data-autoplay loop data-src="static/psy.mp3"></audio>
+				</section>
+				<section data-transition="fade-in fade-out" data-background-image="static/pies.gif"></section>
+				<section data-transition="fade-in fade-out" data-background-color="black"></section>
+				<section data-transition="fade-in fade-out" data-background-image="static/oltarz.png"></section>
+				<section data-transition="fade-in fade-out">
+				    <h2>THE END</h2>
+				</section>
+			</div>
+		</div>
+
+		<script src="vendor/dist/reveal.js"></script>
+		<script src="vendor/plugin/notes/notes.js"></script>
+		<script src="vendor/plugin/markdown/markdown.js"></script>
+		<script src="vendor/plugin/highlight/highlight.js"></script>
+		<script src="vendor/plugin/math/math.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: false,
+				progress: false,
+				slideNumber: false,
+
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
+				transitionSpeed: 'default', // default/fast/slow
+				backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+
+				hash: true,
+				hashOneBasedIndex: true,
+
+                autoPlayMedia: true,
+
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+			});
+		</script>
+	</body>
+</html>
